@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Meals</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <form class="search">
+        <h1>MealsDataBase</h1>
+        <input
+          type="text"
+          placeholder="search your favourite meal"
+          name="meal"
+        />
+      </form>
+      <section class="meals-section">
+        <article class="loading">
+          <img src="./loading.gif" alt="loading" />
+        </article>
+        <h2 class="meal-not-found"></h2>
+        <section class="meals-grid">
+          <a href="singleMeal.html">
+            <article class="meal" data-id="1">
+              <img src="./meal.jpg" alt="meal" />
+              <h3>Meal</h3>
+            </article>
+          </a>
+        </section>
+      </section>
+    </main>
+    <footer></footer>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
